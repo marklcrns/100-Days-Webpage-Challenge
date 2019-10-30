@@ -5,24 +5,87 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="navbar.css" />
   <title>Day 6 Webpage</title>
 </head>
 
+<!-- YouTube tutorial for navbar responsive animation -->
+<!-- https://www.youtube.com/watch?v=H4MkGzoACpQ by Dev Ed -->
+
 <body>
   <nav>
-    <div class="navbar">
-      <a class="active" href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact Us</a>
-      <div class="navmenu-right">
-        <a href="#">Log In</a>
-        <a href="#">Sign Up</a>
-      </div>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
     </div>
+    <ul class="nav-menu">
+      <li><a class="active nav-links" href="#">Home</a></li>
+      <li><a class="nav-links" href="#">About</a></li>
+      <li><a class="nav-links" href="#">Contact</a></li>
+    </ul>
   </nav>
 
-  <h1>Hello, World</h1>
+  <div class="main">
+    <header>
+      <div class="header">
+        <h1>Day 6 Webpage Exercise</h1>
+      </div>
+    </header>
+    <section class="contents">
+      <h2>This is just a navbar animation test</h2>
+      <div class="post">
+        <h4>
+          Title 1
+        </h4>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt earum officia ullam voluptates voluptatum,
+          iusto nisi, eius architecto ex repellendus doloribus sequi sint quas provident sit est vel officiis fugiat!
+          Maiores odio, libero ea at optio molestias nihil ipsum suscipit quasi! Debitis tenetur dicta non deserunt
+          blanditiis fuga quae voluptatibus!
+        </p>
+      </div>
+      <div class="post">
+        <h4>
+          Title 1
+        </h4>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt earum officia ullam voluptates voluptatum,
+          iusto nisi, eius architecto ex repellendus doloribus sequi sint quas provident sit est vel officiis fugiat!
+          Maiores odio, libero ea at optio molestias nihil ipsum suscipit quasi! Debitis tenetur dicta non deserunt
+          blanditiis fuga quae voluptatibus!
+        </p>
+      </div>
+      <div class="post">
+        <h4>
+          Title 1
+        </h4>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt earum officia ullam voluptates voluptatum,
+          iusto nisi, eius architecto ex repellendus doloribus sequi sint quas provident sit est vel officiis fugiat!
+          Maiores odio, libero ea at optio molestias nihil ipsum suscipit quasi! Debitis tenetur dicta non deserunt
+          blanditiis fuga quae voluptatibus!
+        </p>
+      </div>
+      <div class="resize">
+        <h2>=======>>> Resize Window until navbar breaks into a hamburger icon</h2>
+      </div>
+    </section>
+    <aside>
+      <div class="sidebar">
+        <input type="text" placeholder="Search...">
+        <ul>
+          <li class="side-links"><a href="#">Home</a></li>
+          <li class="side-links"><a href="#">About</a></li>
+          <li class="side-links"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+
+  <script src="script.js"></script>
 </body>
 
 </html>

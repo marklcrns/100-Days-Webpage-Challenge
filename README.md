@@ -11,5 +11,5 @@
 
 (days marked with "?" hasn't been made up to or still unfinished)
 
-* Day 6 10/28/2019 ?
+* Day 6 10/28/2019
 * Day 7 10/29/2019 ?
