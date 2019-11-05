@@ -1,0 +1,505 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: white;
+  min-height: 100vh;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background-color: black;
+  opacity: 0.8;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navbar-content {
+  height: 45px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+.nav-links {
+  padding: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  overflow: hidden;
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.container-2 {
+  display: flex;
+}
+
+.headline-contents {
+  text-align: center;
+  position: relative;
+  color: white;
+  padding: 0 10px;
+  z-index: 1;
+}
+
+.headline {
+  font-size: 45px;
+  line-height: 1.5;
+  font-weight: 550;
+  letter-spacing: -0.02rem;
+}
+
+.subhead {
+  font-size: 24px;
+  font-weight: 350;
+  line-height: 1.16;
+}
+
+.cta-links {
+  line-height: 50px;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.fa-chevron-right {
+  padding-left: 6.3px;
+  font-size: 13px;
+}
+
+.cta-links a {
+  padding: 0 10px;
+  color: #6bf;
+  text-decoration: none;
+}
+
+.cta-links a:hover {
+  text-decoration: underline;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+/* airpods pro */
+#container-airpods-pro {
+  height: 888px;
+  background-color: black;
+}
+
+.headline-contents-airpods-pro {
+  top: 120px;
+}
+
+#airpods-pro-img-container {
+  position: absolute;
+  bottom: 20px;
+  min-width: 500px;
+}
+
+/* iPhone 11 pro */
+#container-iphone11-pro {
+  height: 690px;
+  background-color: black;
+}
+
+.headline-contents-iphone11-pro {
+  top: 60px;
+}
+
+#iphone11-pro-img-container {
+  position: absolute;
+  bottom: -5px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* iPhone 11 */
+.headline-contents-iphone11 {
+  color: black;
+  top: 80px;
+}
+
+#container-iphone11 {
+  height: 680px;
+}
+
+.img-iphone11 {
+  transform: rotate(65deg) translate(1%, -4%);
+}
+
+/* Sub Containers */
+.container-2 {
+  overflow: hidden;
+  height: 580px;
+  margin: 0 5px;
+  box-sizing: border-box;
+}
+
+.subcontainer {
+  width: 50vw;
+  background-color: #f9f9f9;
+  margin: 0 5px 0 5px;
+}
+
+.headline-apple-watch-series5 h2 {
+  font-size: 32px;
+  display: inline-block;
+  letter-spacing: 0.012em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headline-apple-watch-studio {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.headline-apple-watch-series5 .fa-apple {
+  font-size: 38px;
+}
+
+.subcontainer .subhead {
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+}
+
+.subcontainer .cta-links a {
+  color: #0070c9;
+  font-size: 17px;
+}
+
+.headline-apple-watch-series5::after {
+  content: "SERIES 5";
+  color: #d11f2a;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  position: relative;
+  bottom: 10px;
+}
+
+.subcontainer .headline-contents {
+  color: black;
+}
+
+.headline-contents-apple-watch-series5 {
+  margin-top: 25px;
+}
+
+.headline-contents-apple-watch-studio {
+  margin-top: 37px;
+}
+
+.subcontainer .img-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#apple-watch-series5-img-container {
+  max-width: 700px;
+  min-width: 650px;
+}
+
+#apple-watch-studio-img-container {
+  max-width: 550px;
+  min-width: 500px;
+}
+
+.img-apple-watch-studio {
+  bottom: 40px;
+}
+
+footer {
+  background-color: #f5f5f7;
+  font-weight: 400;
+  overflow: hidden;
+  letter-spacing: -0.01em;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.footer-container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+.footnotes {
+  color: #86868b;
+  padding: 17px 0 11px;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.footnotes ul {
+  list-style-type: none;
+}
+
+.footnote-items {
+  padding-bottom: 9.6px;
+}
+
+.footer-directory {
+  display: flex;
+  padding: 20px 0 0;
+  justify-content: space-between;
+}
+
+.footer-directory-columns {
+  margin-right: 9.6px;
+}
+
+.footer-dir-section-title {
+  color: #1d1d1f;
+  margin-bottom: 9.6px;
+  font-weight: 600;
+}
+
+.footer-dir-list {
+  list-style-type: none;
+}
+
+.footer-dir-links {
+  margin-bottom: 9.6px;
+}
+
+.footer-dir-links a {
+  text-decoration: none;
+  color: #515154;
+}
+
+.footer-footer {
+  color: #86868b;
+  padding: 34px 0 21px;
+}
+
+.footer-shop {
+  margin: 0 0 7px;
+  padding: 0 0 8px;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.footer-locale {
+  float: right;
+}
+
+#footer-locale-link {
+  color: #515154;
+  display: flex;
+  align-items: center;
+}
+
+.footer-locale-flag {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+}
+
+.footer-shop a,
+.footer-locale a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.footer-legal-links-container,
+.footer-legal-copyright {
+  margin: 5px 30px 0 0;
+  display: inline;
+}
+
+.footer-legal-links {
+  color: #515154;
+  text-decoration: none;
+  margin: 5px 7px 0 0;
+  padding: 0 10px 0 0;
+  border-right: 0.5px solid #d2d2d7;
+  display: inline-block;
+}
+
+@media screen and (max-width: 991.8px) {
+  /* airpods pro */
+  #container-airpods-pro {
+    height: 750px;
+  }
+
+  /* iPhone 11 pro */
+  #container-iphone11-pro,
+  #container-iphone11 {
+    height: 650px;
+  }
+
+  /* iPhone 11 */
+
+  .headline-contents-iphone11 {
+    transform: translate(0, -30%);
+  }
+
+  /* Apple watches */
+  .container-2 {
+    height: 500px;
+  }
+
+  #apple-watch-series5-img-container {
+    max-width: 650px;
+    min-width: 450px;
+  }
+
+  .img-apple-watch-series5 {
+    bottom: 25px;
+  }
+
+  #apple-watch-studio-img-container {
+    max-width: 500px;
+    min-width: 400px;
+  }
+
+  .subcontainer .headline-apple-watch-studio,
+  .headline-apple-watch-series5 h2 {
+    font-size: 28px;
+  }
+
+  .subcontainer .subhead {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767.8px) {
+  .container {
+    margin-bottom: 6px;
+  }
+
+  .headline {
+    font-size: 30px;
+  }
+
+  .subhead {
+    font-size: 18px;
+  }
+
+  .cta-links {
+    font-size: 17px;
+  }
+
+  .headline-contents-airpods-pro {
+    transform: translate(0, -30%);
+  }
+
+  /* Airpods pro */
+  #container-airpods-pro {
+    height: 600px;
+  }
+
+  /* iPhone 11 pro */
+  #container-iphone11-pro,
+  #container-iphone11 {
+    height: 520px;
+  }
+
+  /* Apple watches */
+  .container-2 {
+    height: 420px;
+  }
+
+  .subcontainer .headline-apple-watch-studio,
+  .headline-apple-watch-series5 h2 {
+    font-size: 24px;
+  }
+
+  .subcontainer .subhead {
+    font-size: 14px;
+  }
+
+  .subcontainer .cta-links {
+    line-height: 30px;
+  }
+
+  #apple-watch-series5-img-container {
+    max-width: 450px;
+    min-width: 350px;
+  }
+
+  #apple-watch-studio-img-container {
+    max-width: 400px;
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 575.8px) {
+  .subcontainer .cta-links a {
+    padding: 0;
+  }
+
+  /* Airpods Pro */
+  #container-airpods-pro {
+    height: 500px;
+  }
+
+  .headline-contents-airpods-pro {
+    transform: translate(0, -40%);
+  }
+
+  /* iPhone 11 pro */
+  #container-iphone11-pro,
+  #container-iphone11 {
+    height: 440px;
+  }
+
+  /* Apple Watches */
+
+  .container-2 {
+    height: 380px;
+  }
+
+  #apple-watch-series5-img-container {
+    max-width: 380px;
+    min-width: 300px;
+  }
+
+  #apple-watch-studio-img-container {
+    max-width: 350px;
+    min-width: 250px;
+  }
+
+  .img-apple-watch-studio {
+    bottom: 30px;
+  }
+
+  .subcontainer .headline-apple-watch-studio,
+  .headline-apple-watch-series5 h2 {
+    font-size: 26px;
+  }
+
+  .subcontainer .subhead {
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+}
