@@ -1,0 +1,3 @@
+I learned:
+- css keyframes
+- css transition and transform properties

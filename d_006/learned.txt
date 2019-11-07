@@ -1,0 +1,5 @@
+I learned:
+- to create hamburger meny
+- css clip-path and transition property
+- repositioning nav items for hamburger menu
+- better understanding of positioning elements

@@ -1,0 +1,3 @@
+I learned:
+- css tricks for better design
+- adding vector icons with fontawesome

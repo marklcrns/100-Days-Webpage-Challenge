@@ -1,0 +1,4 @@
+I learned:
+- css grid system
+- css position property
+- linear gradients

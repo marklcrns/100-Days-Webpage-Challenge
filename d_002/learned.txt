@@ -1,0 +1,5 @@
+I learned:
+- to add Google fonts
+- <hr> element design
+- pseudo classes like ::after and ::before
+- opacity and and when to use it for design

@@ -1,0 +1,3 @@
+I learned:
+- to create sidebar
+- transition animation

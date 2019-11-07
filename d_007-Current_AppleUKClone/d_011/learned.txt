@@ -1,0 +1,6 @@
+I learned:
+- Hamburger menu animation 
+- Cubic bezier for transition
+- More in-depth knowledge of css transform property
+- Parsing html elements with browser console 
+- JS requestAnimationFrame

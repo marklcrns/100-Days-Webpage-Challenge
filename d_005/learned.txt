@@ -1,0 +1,5 @@
+I learned:
+- web UI design
+- css media queries
+- box-shadow property
+- border radius

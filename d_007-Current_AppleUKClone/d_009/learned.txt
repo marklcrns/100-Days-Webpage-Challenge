@@ -1,0 +1,4 @@
+I learned:
+- better html structure and design
+- More in-depth in media responsiveness
+- css specifitity

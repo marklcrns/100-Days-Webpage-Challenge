@@ -1,0 +1,6 @@
+I learned:
+- to create a simple webpage with responsive header img
+- to create a navbard and content sidebar
+- html structure
+- :hover pseudo class
+- css float property

@@ -1,0 +1,4 @@
+I learned:
+- cloning a webpage
+- html structure and design
+- Inspecting a webpage to parse elements thoroughly
