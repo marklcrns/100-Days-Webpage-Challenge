@@ -1,0 +1,12 @@
+I learned:
+- How to correctly structure html and css in a more logical layout
+- Separation of concern
+- JS and CSS animations
+- Adding an overlay to an image or background using pseudo class ::after or ::before
+- Creating an html forms with client side validation
+- Properly linking or adding webpages
+- File structure
+- More in-depth knowledge of the css grid system
+- Validating the correctness of the source code using https://validator.w3.org/
+- Mobile-first design
+- Some Bootstrap knowledge
