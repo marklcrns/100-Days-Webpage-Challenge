@@ -1,5 +1,0 @@
-This is the week 5 project from HarvardX: CS50's Introduction to Computer Science online course at edX.
-
-I started this project 10/28/2019 and finished 2 weeks later today 11/8/2019. It took me awhile to finish because I am relatively new to frontend developing and the time I only have alloted to finishing this project among other materials I need to study at the same time. I had so much fun creating this mini website that I put more effort than I should into it.
-
-Because this project is more of a priority, I focused working on this project leaving no time to make commits for the 100 days challenge that I had to make the project as a commit of its own. I did not initially intend to include this project in the challenge because I used Bootstrap, as per the instruction of the CS50 course, and this was completely out of the picture. Regardless, this project fits right in the challenge because the meterials I used and the challenges I solved were parallel.Also, I used Bootstrap sparingly only to satisfy the requirements. Still, the bulk of the code were native.

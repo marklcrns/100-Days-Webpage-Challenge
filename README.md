@@ -18,3 +18,5 @@ My goal for this challenge is to improve on creating websites and have a more in
 
 * 10/28/2019
 * 10/29/2019
+* 11/12/2019
+* 11/13/2019
