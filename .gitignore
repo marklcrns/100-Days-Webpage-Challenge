@@ -1,3 +1,8 @@
 # ignore all logs
 *.log
 tags
+tags.*
+package-lock.json
+package.json
+.eslintrc.*
+node_modules
