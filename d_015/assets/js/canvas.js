@@ -1,3 +1,6 @@
+// Youtube Tutorial
+// https://www.youtube.com/watch?v=EO6OkltgudE&t=39s
+
 const canvas = document.querySelector("canvas");
 
 canvas.width = window.innerWidth;
